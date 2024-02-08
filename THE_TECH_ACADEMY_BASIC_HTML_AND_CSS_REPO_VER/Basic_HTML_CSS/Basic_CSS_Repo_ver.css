@@ -1,0 +1,16 @@
+x
+{
+	text-shadow: 1px 1px 2px black;
+}
+
+ol
+{
+	color: pink;
+	list-style-type: upper-roman;
+}
+
+ul
+{
+	color: blue;
+	list-style-type: square;
+}

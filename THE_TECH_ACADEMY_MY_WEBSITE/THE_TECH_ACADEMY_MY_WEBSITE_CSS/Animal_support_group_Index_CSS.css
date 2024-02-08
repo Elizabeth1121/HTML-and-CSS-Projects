@@ -1,0 +1,248 @@
+/* Changing the font and the space for the first ul list */
+*
+{
+	padding: 0;
+	margin: 0;
+	font-family: Ariel;
+	font-weight: bold;
+}
+
+/* Changing whole web pg back ground color */
+body
+{
+	background-color: #333;
+}
+
+/* Colors and alignment of text in list */
+ul
+{
+	list-style: none;
+	background-color: #333;
+	text-align: center;
+}
+
+/* Changes the display of how the text sits in the display above */
+ul li
+{
+	display: inline-block;
+	position: relative;
+}
+
+/* Adding extra spacing between list elements, changing color of list elements, and centering txt */
+ul li a
+{
+	display: block;
+	padding: 20px 25px;
+	font-size: 16px;
+	color: #FFF;
+	text-decoration: none;
+	text-align: center;
+}
+
+/* Changing drop down displays color, display, spacing */
+ul li ul.dropdown li
+{
+	display: block;
+	background: #333;
+	margin: 20px 0px;
+}
+
+/* This manages the actuall drop down elements */
+ul li ul.dropdown 
+{
+	width: auto;
+	background: #333;
+	position: absolute;
+	z-index: 999;
+	display: none;
+}
+
+/* Changes the color of dropdown element you are hovering over */
+ul li a:hover
+{
+	background: #222;
+}
+
+/* Gives the dropdown a box shape when hover over */
+ul li:hover ul.dropdown
+{
+	display: block;
+}
+
+/* Centers the Make a diff vid */
+.video-container
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: black;
+}
+
+/* Adding black borders to the sides of the make a diff vid */
+.video-container video
+{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+/* Page spacer (putting in spacing between each square */
+.page-spacer
+{
+	margin-bottom: 30px;
+}
+
+/* Page spacer (putting in spacing between each square in gallery */
+.page-spacer-gallery
+{
+	margin-bottom: 100px;
+}
+
+/* Formatting the header for the diffrent sections */
+.text-formatting-header
+{
+	text-align: left;
+	color: white;
+}
+
+/* Formatting the header for gallery */
+.text-formatting-header-underlined
+{
+	text-decoration: underline;
+	text-align: center;
+	color: white;
+}
+
+/* Text formatting inside squares (so the paragraphs) */
+.text-formatting-paragraph
+{
+	text-align: center;
+	color: white;
+	font: Ariel;
+}
+
+/* Styling and formatting for the about us section */
+.about-section
+{
+	Border: 2px solid white;
+	border-radius: 10px;
+	padding: 20px;
+	width: 1000px;
+	margin: 0 auto;
+	background-color: #FF6B6B;
+	box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Styling and formatting for the images section */
+.images-section
+{
+	Border: 2px solid white;
+	border-radius: 10px;
+	padding: 15px;
+	padding-bottom: 40px;
+	width: 1000px;
+	margin: 0 auto;
+	background-color: black;
+	box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Grid setup for my gallery*/
+.grid
+{
+	display: grid;
+	grid-template-columns: repeat(3, 0fr);
+	grid-template-rows: repeat(3, 5vw);
+	grid-gap: 100px;
+	align-items: center;
+	justify-items: center;
+}
+
+/* Adjusting the size and corners of images in gallery*/
+.photo-container img
+{
+	border: 2px black;
+	border-radius: 10px;
+	width: 250px;
+	height: 180px;
+	margin: 10px;
+	object-fit: fit;
+}
+
+/* Video formatting section*/
+.video-Formatting
+{
+		width: 100%;
+		height: auto;
+		background-color: black;
+		overflow: hidden;
+}
+
+/* Video container */
+.video-gallery-container
+{
+	Border: 2px solid white;
+	border-radius: 10px;
+	padding: 20px;
+	width: 1000px;
+	margin: 0 auto;
+	background-color: black;
+	box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Grid setup for my videos*/
+.video-grid
+{
+	display: grid;
+	grid-template-columns: repeat(2, 0fr);
+	grid-template-rows: repeat(0, 5vw);
+	grid-gap: 50px;
+}
+
+/* Styling and formatting for the about us section */
+.volunteer-donation-section-container
+{
+	Border: 2px solid white;
+	border-radius: 10px;
+	padding: 20px;
+	width: 1000px;
+	margin: 0 auto;
+	background-color: #FF6B6B;
+	box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Styling and formatting for the volunteer section */
+.volunteer-section
+{
+	Border: 2px solid white;
+	border-radius: 10px;
+	padding: 15px;
+	width: 500px;
+	margin: 0 auto;
+	background-color: black;
+	box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Styling and formatting for the donation section */
+.donation-section
+{
+	Border: 2px solid white;
+	border-radius: 10px;
+	padding: 15px;
+	width: 500px;
+	margin: 0 auto;
+	background-color: black;
+	box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/*footer container here */
+footer
+{
+	color: white;
+	background-color: rgba(0, 0, 0, 0.5);
+	width: 100%;
+	height: 100px;
+	margin-top: 20px;
+	display: table;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}

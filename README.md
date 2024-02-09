@@ -11,3 +11,4 @@ The Tech Academy HTML and CSS course
 ## Tools
 - Bing AI
 - Notepad++
+- Visual Studio Code

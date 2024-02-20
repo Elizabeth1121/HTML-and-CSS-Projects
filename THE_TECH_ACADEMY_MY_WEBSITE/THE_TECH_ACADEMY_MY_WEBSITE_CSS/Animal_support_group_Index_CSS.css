@@ -112,31 +112,6 @@ ul li:hover ul.dropdown
 	font: Ariel;
 }
 
-/* Styling and formatting for the about us section */
-.about-section
-{
-	Border: 2px solid white;
-	border-radius: 10px;
-	padding: 20px;
-	width: 1000px;
-	margin: 0 auto;
-	background-color: #FF6B6B;
-	box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-/* Styling and formatting for the images section */
-.images-section
-{
-	Border: 2px solid white;
-	border-radius: 10px;
-	padding: 15px;
-	padding-bottom: 40px;
-	width: 1000px;
-	margin: 0 auto;
-	background-color: black;
-	box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
-}
-
 /* Grid setup for my gallery*/
 .grid
 {

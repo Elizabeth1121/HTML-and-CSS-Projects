@@ -1,0 +1,9 @@
+/* Changing the font and the space for the first ul list */
+*
+{
+	padding: 0;
+	margin: 0;
+	font-family: Ariel;
+	font-weight: bold;
+	font-size: x-large;
+}

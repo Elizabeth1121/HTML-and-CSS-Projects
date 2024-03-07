@@ -8,6 +8,7 @@ The Tech Academy HTML and CSS course
 - Project website : from the Automanted HTML and CSS Course, Basic HTML Website Assignment step: 260. (2/6/24)
 - Project Personal Website: from the automated HTML and CSS course, one page git hub assignment step: 267. (2/8/24)
 - Project Project : from the automated HTML and CSS course, Basic CSS 1-4 step: 366 (2/13/24)
+- one_page_website : from the automated JavaScript course, One-Page Website Challenge step: 310 (3/6/24)
 
 ## Tools
 - Bing AI
